@@ -1,0 +1,44 @@
+html {
+    font-size: 16px; 
+    background-color: #f4f4f4;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('images/arkBackground.png'); 
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+/* Center button */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    justify-content: center; 
+    height: 100%;            
+}
+
+.search-section {
+    display: flex;           
+    flex-direction: row;     
+    gap: 10px;               
+    margin-top: 20px;        
+}
+
+
+#dino-input {
+    padding: 10px; 
+    font-size: 1rem;
+}
