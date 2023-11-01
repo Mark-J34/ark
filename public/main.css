@@ -1,0 +1,118 @@
+html {
+    font-size: 16px; 
+    background-color: #f4f4f4;
+    height: 100%; 
+    margin: 0;
+    background-image: url('images/arkBackground.png'); 
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+h1 {
+    color: #FFD700;
+    font-size: 65px;
+    text-align: center;      
+}
+
+.search-section {
+    display: flex;
+    flex-direction: row;         
+    align-items: center;         
+    justify-content: center;     
+    margin: 10pxpx;
+    padding: 140px;         
+}
+
+#dino-input {
+    padding: 10px;
+    font-size: 18px;
+    width: 500px;       
+    height: 30px;
+    margin-right: 10px;       
+}
+
+#search-btn {
+    padding: 10px 20px; 
+    width: 100px;       
+    height:40px;
+    background-color: #d3d3d3;       
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1); /* Slight background to separate header */
+    padding: -10px;
+}
+
+.filter-section {
+    margin: 20px 0;
+}
+
+.diet-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: green;
+    color: white;
+    text-decoration: none; /* Removes the underline from links */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.diet-btn:hover {
+    background-color: darkgreen;
+}
+
+#dino-stats {
+    background-color: #f9f9f9;
+    text-align: center; 
+    max-width: 20%;  
+    padding: 10px;              
+    margin: 10px auto;              
+}
+
+#diet-section {
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dino-item {
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    padding: 20px; 
+    margin: 5px; 
+    background: none; 
+    font-size: 1.2em; 
+    width: 100%;
+    text-align: center; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dino-item:hover {
+    transform: scale(1.05); /* Slightly enlarges the item when hovered */
+}
+
+
+#dino-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -200px;
+    height: 60vh; 
+}
